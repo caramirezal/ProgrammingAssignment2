@@ -47,14 +47,14 @@ cacheSolve <- function(x, ...) {
 
 
 ## Testing functions
-matOb<-makeCacheMatrix(diag(1,3,3))
-cacheSolve(matOb)
+#matOb<-makeCacheMatrix(diag(1,3,3))
+#cacheSolve(matOb)
 #cacheSolve(matOb)
 ## Testing A*X = I. Where A is a matrix, X its inverse and I the unitary diagonal
 ## matrix.
-matOb$get()%*%matOb$getinv()
+#matOb$get()%*%matOb$getinv()
 
-m1 <- matrix(c(1/2,-1/4,-1,3/4),2,2)
-solve(m1)
-m <- makeCacheMatrix(m1)
-cacheSolve(m)
+#m1 <- matrix(c(1/2,-1/4,-1,3/4),2,2)
+#solve(m1)
+#m <- makeCacheMatrix(m1)
+#cacheSolve(m)
